@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/spzx-client/service-product-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-client/service-user-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/common-logs/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/common-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/common-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/common-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/common-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-manager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-service/service-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-service/service-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-service/service-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spzx-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

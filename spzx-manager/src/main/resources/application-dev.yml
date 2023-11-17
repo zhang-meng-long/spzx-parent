@@ -1,0 +1,76 @@
+server:
+  port: 8501
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:  jdbc:mysql://192.168.231.110:3307/db_spzx?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: 192.168.231.110
+      password: 123456
+      port: 6379
+
+  servlet:
+    multipart:
+      max-file-size:  10MB
+      max-request-size:  100MB
+
+# mybatis的配置
+#mybatis:
+#  config-location: classpath:/mybatis-config.xml
+#  mapper-locations: classpath:/mapper/*.xml
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-field: isDeleted
+      logic-not-delete-value: 0
+      logic-delete-value: 1
+
+  configuration:
+
+
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+
+
+#  config-location: classpath:/mybatis-config.xml
+#  mapper-locations: classpath:mapper/*.xml
+
+
+# 分页插件相关配置
+pagehelper:
+  helper-dialect: mysql #mysql数据库
+  reasonable: true #分页合理化
+  support-methods-arguments: true
+
+
+
+# 自定义配置
+spzx:
+  auth:
+    noAuthUrls:
+      - /admin/system/index/login
+      - /admin/system/index/generateValidateCode
+#      - /doc.html/**
+  minio:
+    url: http://192.168.231.110:9001
+    username: admin
+    password: admin123456
+    bucket: spzx
+
+
+
+
+
+
+
+
+
+
+
+

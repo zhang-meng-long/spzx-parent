@@ -1,0 +1,8 @@
+# 项目排除路径
+/spzx-common/common-logs/target/
+/spzx-common/common-service/target/
+/spzx-common/common-util/target/
+/spzx-gateway/target/
+/spzx-manager/target/
+/spzx-model/target/
+/spzx-service/service-product/target/

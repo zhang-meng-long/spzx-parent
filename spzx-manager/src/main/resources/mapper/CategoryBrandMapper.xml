@@ -1,0 +1,42 @@
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.manager.mapper.CategoryBrandMapper">
+
+
+
+    <sql id="findPageWhere">
+        <where>
+            <if test="categoryBrandDto.brandId != null and categoryBrandDto.brandId != ''">
+                and cb.brand_id = #{categoryBrandDto.brandId}
+            </if>
+            <if test="categoryBrandDto.categoryId != null and categoryBrandDto.categoryId != ''">
+                and cb.category_id = #{categoryBrandDto.categoryId}
+            </if>
+            and cb.is_deleted = 0
+        </where>
+    </sql>
+
+
+    <select id="findByPage" resultType="com.example.spzx.model.entity.product.CategoryBrand">
+
+        select
+        cb.*,
+        c.name as categoryName,
+        b.name as brandName, b.logo
+        from category_brand cb
+         inner join category c on c.id = cb.category_id
+        inner join brand b  on b.id = cb.brand_id
+        <include refid="findPageWhere"/>
+        order by cb.id desc
+
+    </select>
+    <select id="findBrandByCategoryId" resultType="com.example.spzx.model.entity.product.Brand">
+        select
+            b.*
+        from category_brand cb
+                 left join brand b  on b.id = cb.brand_id
+        where cb.category_id = #{categoryId} and cb.is_deleted = 0
+        order by cb.id desc
+    </select>
+
+
+</mapper>
