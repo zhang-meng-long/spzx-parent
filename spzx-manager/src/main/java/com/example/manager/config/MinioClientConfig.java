@@ -13,8 +13,6 @@ import org.springframework.context.annotation.Configuration;
 public class MinioClientConfig {
 @Autowired
     private MinioPojo minioPojo;
-
-
 @Bean
     public MinioClient minioClient(){
     return MinioClient.builder()

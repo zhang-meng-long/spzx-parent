@@ -5,11 +5,11 @@
 
     <sql id="findPageWhere">
         <where>
-            <if test="categoryBrandDto.brandId != null and categoryBrandDto.brandId != ''">
-                and cb.brand_id = #{categoryBrandDto.brandId}
+            <if test="brandId != null and brandId != ''">
+                and cb.brand_id = #{brandId}
             </if>
-            <if test="categoryBrandDto.categoryId != null and categoryBrandDto.categoryId != ''">
-                and cb.category_id = #{categoryBrandDto.categoryId}
+            <if test="categoryId != null and categoryId != ''">
+                and cb.category_id = #{categoryId}
             </if>
             and cb.is_deleted = 0
         </where>

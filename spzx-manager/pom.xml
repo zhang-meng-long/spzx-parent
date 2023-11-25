@@ -82,11 +82,23 @@
         </dependency>
 
 <!--minio-->
+<!--        <dependency>-->
+<!--            <groupId>io.minio</groupId>-->
+<!--            <artifactId>minio</artifactId>-->
+<!--            <version>8.5.2</version>-->
+<!--        </dependency>-->
+<!--        自定义的minio-->
         <dependency>
-            <groupId>io.minio</groupId>
-            <artifactId>minio</artifactId>
-            <version>8.5.2</version>
+            <groupId>com.zq</groupId>
+            <artifactId>minio-spring-boot-starter</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
+
+
+
+
+
 <!--日志-->
         <dependency>
             <groupId>org.example</groupId>

@@ -22,8 +22,7 @@
     </insert>
 
 
-    <select id="selectList" resultType="com.example.spzx.model.entity.order.OrderStatistics"
-            parameterType="com.example.spzx.model.dto.order.OrderStatisticsDto">
+    <select id="selectList" resultType="com.example.spzx.model.entity.order.OrderStatistics">
 
         select <include refid="columns" />
         from order_statistics
@@ -36,8 +35,6 @@
             </if>
         </where>
         order by order_date
-
-
     </select>
 
 </mapper>

@@ -8,14 +8,7 @@
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <!-- 打印SQL语句 -->
         <setting name="logImpl" value="STDOUT_LOGGING"/>
-
-
     </settings>
-
-
-
-
-
 
     <plugins>
         <!-- 分页插件 -->
@@ -25,8 +18,6 @@
     <mappers>
     <package name="com.example.manager.mapper"/>
     </mappers>
-
-
 
 </configuration>
 

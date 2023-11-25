@@ -2,16 +2,21 @@ package com.example.spzx.model.entity.user;
 
 import com.example.spzx.model.entity.base.BaseEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @Data
+@EqualsAndHashCode
 @Schema(description = "用户实体类")
+@AllArgsConstructor
+@NoArgsConstructor
 public class UserInfo extends BaseEntity {
 
    private static final long serialVersionUID = 1L;
-
    @Schema(description = "用户名")
    private String username;
 

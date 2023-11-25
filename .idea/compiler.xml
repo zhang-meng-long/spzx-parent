@@ -8,26 +8,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spzx-model" />
+        <module name="service-car" />
         <module name="common-util" />
-        <module name="service-product-client" />
         <module name="common-service" />
         <module name="common-logs" />
         <module name="service-product" />
         <module name="service-user" />
         <module name="spzx-manager" />
-        <module name="service-user-client" />
         <module name="spzx-gateway" />
         <module name="service-order" />
+        <module name="service-pay" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="service-product-client" target="17" />
+      <module name="service-user-client" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-logs" options="-parameters" />
       <module name="common-service" options="-parameters" />
       <module name="common-util" options="-parameters" />
+      <module name="service-car" options="-parameters" />
       <module name="service-order" options="-parameters" />
+      <module name="service-pay" options="-parameters" />
       <module name="service-product" options="-parameters" />
       <module name="service-product-client" options="-parameters" />
       <module name="service-user" options="-parameters" />

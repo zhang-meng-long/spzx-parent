@@ -15,5 +15,18 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
+<dependencies>
 
+<!--    自定义发送电子邮件-->
+    <dependency>
+        <groupId>com.example</groupId>
+        <artifactId>Email-spring-boot-starter</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+
+
+
+
+
+</dependencies>
 </project>

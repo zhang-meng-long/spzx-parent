@@ -1,4 +1,4 @@
-package com.example.common.service.exception;
+package com.zq.common.service.exception;
 
 import com.example.spzx.model.vo.common.ResultCodeEnum;
 import lombok.Data;

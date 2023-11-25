@@ -24,16 +24,25 @@
         </dependency>
 
         <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.8.11</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.example</groupId>
             <artifactId>spzx-model</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
 
         <dependency>
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
             <version>8.5.2</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

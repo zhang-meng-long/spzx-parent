@@ -7,11 +7,8 @@
 
 
     <select id="RoleMenuByRoleId" resultType="long">
-
-
         select menu_id from sys_role_menu where role_id = #{id}
         and is_deleted = 0
-
     </select>
 
 </mapper>

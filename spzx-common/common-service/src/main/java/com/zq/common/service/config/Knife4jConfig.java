@@ -1,4 +1,4 @@
-package com.example.common.service.config;
+package com.zq.common.service.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;

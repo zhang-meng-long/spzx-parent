@@ -1,7 +1,6 @@
-package com.example.common.service.exception;
+package com.zq.common.service.exception;
 
 import com.example.spzx.model.vo.common.Result;
-import com.example.spzx.model.vo.common.ResultCodeEnum;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 

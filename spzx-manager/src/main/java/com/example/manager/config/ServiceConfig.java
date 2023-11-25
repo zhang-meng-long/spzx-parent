@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @Date 2023/10/31 17:26
  */
 @Configuration
-@ComponentScan(basePackages = "com.example.common.service")
+@ComponentScan(basePackages = "com.example.common")
 public class ServiceConfig {
 
 

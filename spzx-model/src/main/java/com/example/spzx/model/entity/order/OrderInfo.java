@@ -1,5 +1,6 @@
 package com.example.spzx.model.entity.order;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.example.spzx.model.entity.base.BaseEntity;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
@@ -83,6 +84,9 @@ public class OrderInfo extends BaseEntity {
 	@Schema(description = "取消订单原因")
 	private String cancelReason;
 
+
+
+	@TableField(exist = false)
 	@Schema(description = "订单项列表")
 	private List<OrderItem> orderItemList;
 

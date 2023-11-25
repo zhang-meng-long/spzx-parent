@@ -1,9 +1,11 @@
 package com.zq.service.product.controller;
 
 import com.example.spzx.model.dto.h5.ProductSkuDto;
+import com.example.spzx.model.dto.product.SkuSaleDto;
 import com.example.spzx.model.entity.product.ProductSku;
 import com.example.spzx.model.vo.common.Result;
 import com.example.spzx.model.vo.common.ResultCodeEnum;
+import com.example.spzx.model.vo.h5.ProductItemVo;
 import com.github.pagehelper.PageInfo;
 import com.zq.service.product.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -11,10 +13,9 @@ import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @Author 张乔
@@ -39,7 +40,26 @@ public class ProductController {
         return Result.build(pageInfo , ResultCodeEnum.SUCCESS) ;
     }
 
+    @Operation(summary = "商品详情")
+    @GetMapping("item/{skuId}")
+    public Result item(@Parameter(name = "skuId", description = "商品skuId", required = true) @PathVariable Long skuId) {
+        ProductItemVo productItemVo = productService.item(skuId);
+        return Result.build(productItemVo , ResultCodeEnum.SUCCESS);
+    }
 
 
+    @Operation(summary = "获取商品sku信息")
+    @GetMapping("getBySkuId/{skuId}")
+    public ProductSku getBySkuId(@Parameter(name = "skuId", description = "商品skuId", required = true) @PathVariable Long skuId) {
+        ProductSku productSku = productService.getBySkuId(skuId);
+        return productSku;
+    }
+
+//   订单完成后 更新商品销量
+    @Operation(summary = "更新商品sku销量")
+    @PostMapping("updateSkuSaleNum")
+    public Boolean updateSkuSaleNum(@RequestBody List<SkuSaleDto> skuSaleDtoList) {
+        return productService.updateSkuSaleNum(skuSaleDtoList);
+    }
 
 }

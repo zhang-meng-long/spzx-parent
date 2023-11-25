@@ -1240,7 +1240,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="327" parent="298" name="id">
-      <AutoIncrement>14</AutoIncrement>
+      <AutoIncrement>15</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -1291,7 +1291,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="335" parent="299" name="id">
-      <AutoIncrement>9991</AutoIncrement>
+      <AutoIncrement>9992</AutoIncrement>
       <Comment>分类id</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2116,7 +2116,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="475" parent="309" name="id">
-      <AutoIncrement>8</AutoIncrement>
+      <AutoIncrement>9</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2272,7 +2272,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="501" parent="311" name="id">
-      <AutoIncrement>5</AutoIncrement>
+      <AutoIncrement>6</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2321,7 +2321,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="509" parent="312" name="id">
-      <AutoIncrement>14</AutoIncrement>
+      <AutoIncrement>15</AutoIncrement>
       <Comment>ID</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2526,7 +2526,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="543" parent="315" name="id">
-      <AutoIncrement>3712</AutoIncrement>
+      <AutoIncrement>3711</AutoIncrement>
       <Comment>地区id</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2955,7 +2955,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="615" parent="321" name="id">
-      <AutoIncrement>24</AutoIncrement>
+      <AutoIncrement>25</AutoIncrement>
       <Comment>会员id</Comment>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
@@ -2963,7 +2963,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="616" parent="321" name="username">
       <Comment>用户名</Comment>
-      <DataType>varchar(20)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <DefaultExpression>&apos;&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>2</Position>
@@ -2982,7 +2982,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="619" parent="321" name="phone">
       <Comment>手机</Comment>
-      <DataType>varchar(11)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
     <column id="620" parent="321" name="avatar">
@@ -3321,7 +3321,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </column>
     <column id="676" parent="326" name="phone">
       <Comment>电话号码</Comment>
-      <DataType>varchar(17)|0s</DataType>
+      <DataType>varchar(50)|0s</DataType>
       <Position>5</Position>
     </column>
     <column id="677" parent="326" name="avatar">

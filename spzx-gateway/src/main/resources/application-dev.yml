@@ -26,6 +26,30 @@ spring:
           uri: lb://service-product
           predicates:
             - Path=/*/product/**
+        - id: service-user
+          uri: lb://service-user
+          predicates:
+            - Path=/*/user/**
+        - id: service-cart
+          uri: lb://service-cart
+          predicates:
+            - Path=/api/order/cart/**
+        - id: service-order
+          uri: lb://service-order
+          predicates:
+            - Path=/api/order/orderInfo/**
+        - id: service-pay
+          uri: lb://service-pay
+          predicates:
+            - Path=/api/order/alipay/**
+
+  data:
+    redis:
+      host: 192.168.231.110
+      password: 123456
+      port: 6379
+
+
 
 
 

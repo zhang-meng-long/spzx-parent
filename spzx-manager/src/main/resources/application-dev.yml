@@ -30,10 +30,7 @@ mybatis-plus:
       logic-delete-field: isDeleted
       logic-not-delete-value: 0
       logic-delete-value: 1
-
   configuration:
-
-
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   mapper-locations: classpath:mapper/*.xml
 
@@ -57,11 +54,13 @@ spzx:
       - /admin/system/index/login
       - /admin/system/index/generateValidateCode
 #      - /doc.html/**
-  minio:
-    url: http://192.168.231.110:9001
-    username: admin
-    password: admin123456
-    bucket: spzx
+minio:
+  url: http://192.168.231.110:9001
+  bucket-name: spzx
+  username:  admin
+  password: admin123456
+
+
 
 
 
