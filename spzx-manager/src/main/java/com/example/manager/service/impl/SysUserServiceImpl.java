@@ -1,7 +1,8 @@
 package com.example.manager.service.impl;
 
 import cn.hutool.core.util.StrUtil;
-import com.alibaba.fastjson.JSON;
+
+import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
@@ -39,6 +40,8 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Autowired
     private RedisTemplate<String,String> redisTemplate;
+
+
 
 //    @Override
 //    public LoginVo login(LoginDto loginDto) {
@@ -96,7 +99,7 @@ public class SysUserServiceImpl implements SysUserService {
             throw new CustomException(ResultCodeEnum.LOGIN_PASSWORD_ERROR);
         }
         String token= UUID.randomUUID().toString();
-        redisTemplate.opsForValue().set(Constant.LOGIN+token,JSON.toJSONString(sysUser),
+        redisTemplate.opsForValue().set(Constant.LOGIN+token, JSON.toJSONString(sysUser),
                 5, TimeUnit.DAYS);
         LoginVo loginVo=new LoginVo();
         loginVo.setToken(token);
