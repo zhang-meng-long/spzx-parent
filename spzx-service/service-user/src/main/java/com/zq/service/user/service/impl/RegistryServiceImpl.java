@@ -4,9 +4,11 @@ import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.example.spzx.model.dto.h5.UserLoginDto;
 import com.example.spzx.model.dto.h5.UserRegisterDto;
+import com.example.spzx.model.entity.product.Product;
 import com.example.spzx.model.entity.user.UserInfo;
 import com.example.spzx.model.vo.common.ResultCodeEnum;
 import com.example.spzx.model.vo.h5.UserInfoVo;
+import com.zq.client.product.ProductFeignClient;
 import com.zq.service.user.mapper.SysUserMapper;
 import com.zq.service.user.mapper.UserInfoMapper;
 import com.zq.service.user.service.RegistryService;
@@ -18,6 +20,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 import org.springframework.util.StringUtils;
 
+import java.util.List;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
@@ -109,6 +112,21 @@ userInfoMapper.insert(userInfo1);
         UserInfoVo userInfoVo = new UserInfoVo();
         BeanUtils.copyProperties(userInfo,userInfoVo);
         return userInfoVo;
+    }
+
+
+
+@Autowired
+private ProductFeignClient productFeignClient;
+
+
+    @Override
+    public List<Product> getPage() {
+
+
+
+
+        return productFeignClient.get();
     }
 }
 

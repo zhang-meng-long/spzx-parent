@@ -13,4 +13,6 @@ public interface UserAddressService {
     List<UserAddress> findUserAddressList(String token);
 
     UserAddress getById(Long id);
+
+    void save(UserAddress userAddress);
 }

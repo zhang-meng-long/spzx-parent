@@ -6,14 +6,10 @@ import io.minio.BucketExistsArgs;
 import io.minio.MakeBucketArgs;
 import io.minio.MinioClient;
 import io.minio.PutObjectArgs;
-import io.minio.errors.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.IOException;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 import java.util.Date;
 import java.util.UUID;
 
@@ -33,7 +29,8 @@ public class FileUploadService {
     public String uploadImages(MultipartFile file) {
 //        判断桶是否存在
         try {
-            boolean bucketExists = minioClient.bucketExists(BucketExistsArgs.builder().bucket(minioPojo.getBucket()).build());
+            boolean bucketExists = minioClient.bucketExists(BucketExistsArgs.builder().
+                    bucket(minioPojo.getBucket()).build());
 
             if (!bucketExists){
                 minioClient.makeBucket(MakeBucketArgs.builder().bucket(minioPojo.getBucket()).build());
@@ -58,12 +55,7 @@ public class FileUploadService {
 //                            .contentType("image/png")
                             .build());
             String url=minioPojo.getUrl()+"/"+minioPojo.getBucket()+"/"+fileName;
-
         return url;
-
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
             throw new RuntimeException("上传文件失败");

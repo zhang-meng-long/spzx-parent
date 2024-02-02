@@ -34,6 +34,7 @@ import java.util.List;
 @Slf4j
 public class AuthGlobalFilter implements GlobalFilter, Ordered {
 
+//将gateway网关与security安全框架结合起来，完善用户登陆的校验，和权限的发放
 
     private final AntPathMatcher antPathMatcher = new AntPathMatcher();
 

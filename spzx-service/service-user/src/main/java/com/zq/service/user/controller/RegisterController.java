@@ -2,6 +2,7 @@ package com.zq.service.user.controller;
 
 import com.example.spzx.model.dto.h5.UserLoginDto;
 import com.example.spzx.model.dto.h5.UserRegisterDto;
+import com.example.spzx.model.entity.product.Product;
 import com.example.spzx.model.vo.common.Result;
 import com.example.spzx.model.vo.common.ResultCodeEnum;
 import com.example.spzx.model.vo.h5.UserInfoVo;
@@ -10,6 +11,8 @@ import io.swagger.v3.oas.annotations.Operation;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * @Author 张乔
@@ -20,6 +23,14 @@ import org.springframework.web.bind.annotation.*;
 public class RegisterController {
     @Autowired
     private RegistryService registryService;
+
+//    用户浏览过的商品数据（我这里只做一个假商品数据）
+
+
+
+
+
+
 
 //    注册
     @PostMapping("register")

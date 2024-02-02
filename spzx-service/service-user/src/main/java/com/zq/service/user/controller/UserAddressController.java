@@ -23,6 +23,28 @@ public class UserAddressController {
 private UserAddressService userAddressService;
 
 
+    @Operation(summary = "新增用户地址列表")
+@PostMapping("/save")
+public Result save(@RequestBody UserAddress userAddress) {
+    userAddressService.save(userAddress);
+    return Result.success();
+}
+
+
+//将一个用户地址设为默认
+
+
+
+
+
+
+
+
+
+//    修改用户地址
+
+
+
 
     @Operation(summary = "获取用户地址列表")
     @GetMapping("auth/findUserAddressList")

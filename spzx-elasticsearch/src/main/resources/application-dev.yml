@@ -1,0 +1,23 @@
+server:
+  port: 8666
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.231.110:8848
+  application:
+    name: spzx-elasticsearch
+elasticsearch:
+  host: 192.168.231.110
+  port: 9200
+
+
+
+
+
+
+
+
+
+
+

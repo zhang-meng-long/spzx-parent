@@ -26,8 +26,7 @@
         <module>spzx-gateway</module>
         <module>spzx-service</module>
         <module>spzx-client</module>
-
-
+        <module>spzx-elasticsearch</module>
 
 
     </modules>

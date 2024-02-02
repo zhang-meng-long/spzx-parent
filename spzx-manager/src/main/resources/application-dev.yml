@@ -1,6 +1,5 @@
 server:
   port: 8501
-
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -12,7 +11,6 @@ spring:
       host: 192.168.231.110
       password: 123456
       port: 6379
-
   servlet:
     multipart:
       max-file-size:  10MB
@@ -56,7 +54,8 @@ spzx:
 #      - /doc.html/**
 minio:
   url: http://192.168.231.110:9001
-  bucket-name: spzx
+#  port: 9001
+  bucket: spzx
   username:  admin
   password: admin123456
 

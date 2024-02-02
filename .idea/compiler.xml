@@ -15,6 +15,7 @@
         <module name="service-product" />
         <module name="service-user" />
         <module name="spzx-manager" />
+        <module name="spzx-elasticsearch" />
         <module name="spzx-gateway" />
         <module name="service-order" />
         <module name="service-pay" />
@@ -38,6 +39,7 @@
       <module name="service-user" options="-parameters" />
       <module name="service-user-client" options="-parameters" />
       <module name="spzx-client" options="-parameters" />
+      <module name="spzx-elasticsearch" options="-parameters" />
       <module name="spzx-gateway" options="-parameters" />
       <module name="spzx-manager" options="-parameters" />
       <module name="spzx-model" options="-parameters" />

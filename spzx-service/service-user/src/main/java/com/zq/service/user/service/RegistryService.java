@@ -2,7 +2,10 @@ package com.zq.service.user.service;
 
 import com.example.spzx.model.dto.h5.UserLoginDto;
 import com.example.spzx.model.dto.h5.UserRegisterDto;
+import com.example.spzx.model.entity.product.Product;
 import com.example.spzx.model.vo.h5.UserInfoVo;
+
+import java.util.List;
 
 /**
  * @Author 张乔
@@ -15,4 +18,6 @@ public interface RegistryService {
     String login(UserLoginDto userLoginDto);
 
     UserInfoVo getUserInfo(String token);
+
+    List<Product> getPage();
 }

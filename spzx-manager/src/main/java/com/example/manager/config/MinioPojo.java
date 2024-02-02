@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * @Date 2023/11/4 12:40
  */
 @Data
-@ConfigurationProperties("spzx.minio")
+@ConfigurationProperties("minio")
 @Component
 public class MinioPojo {
    private String url;

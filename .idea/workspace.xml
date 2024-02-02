@@ -5,7 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09e9db73-de57-4d07-9ab7-8c8570e7e33a" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/spzx-elasticsearch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-elasticsearch/src/main/java/com/zq/elasticsearch/ElasticsearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-elasticsearch/src/main/java/com/zq/elasticsearch/config/ESClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-elasticsearch/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-service/service-product/src/main/java/com/zq/service/product/controller/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/controller/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-client/src/main/java/com/zq/client/product/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-client/src/main/java/com/zq/client/product/ProductFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-client/target/classes/com/zq/client/product/ProductFeignClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-client/target/classes/com/zq/client/product/ProductFeignClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-gateway/src/main/java/com/spzx/gateway/filter/AuthGlobalFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-gateway/src/main/java/com/spzx/gateway/filter/AuthGlobalFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/example/manager/config/MinioPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/example/manager/config/MinioPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/example/manager/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/example/manager/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/java/com/example/manager/service/impl/FileUploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/java/com/example/manager/service/impl/FileUploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-manager/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-manager/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-pay/target/classes/com/zq/service/pay/service/impl/PaymentInfoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-pay/target/classes/com/zq/service/pay/service/impl/PaymentInfoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-product/src/main/java/com/zq/service/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-product/src/main/java/com/zq/service/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/controller/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/controller/UserAddressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/controller/UserAddressController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/RegistryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/RegistryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/UserAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/UserAddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/impl/RegistryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/impl/RegistryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/impl/UserAddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/src/main/java/com/zq/service/user/service/impl/UserAddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/controller/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/controller/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/controller/UserAddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/controller/UserAddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/RegistryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/RegistryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/UserAddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/UserAddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/impl/RegistryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/impl/RegistryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/impl/UserAddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spzx-service/service-user/target/classes/com/zq/service/user/service/impl/UserAddressServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +110,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b7ca608302922b80bf4bcc57b1fe62e9&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;460815a4c190f9091d7a3d957a91554e&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -114,13 +149,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CarApplication">
-    <configuration name="CarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-car" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.service.car.CarApplication" />
+  <component name="RunManager" selected="Spring Boot.ManagerApplication">
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spzx-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spzx.gateway.GatewayApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zq.service.car.*" />
+          <option name="PATTERN" value="com.spzx.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-order" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.service.order.OrderApplication" />
+    <configuration name="ManagerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="spzx-manager" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.manager.ManagerApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zq.service.order.*" />
+          <option name="PATTERN" value="com.example.manager.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CarApplication" />
+        <item itemvalue="Spring Boot.ManagerApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.ProductApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.PayApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -247,6 +282,15 @@
       <workItem from="1700922271118" duration="269000" />
       <workItem from="1700923377652" duration="274000" />
       <workItem from="1700964688229" duration="1288000" />
+      <workItem from="1701148542313" duration="1064000" />
+      <workItem from="1701151205155" duration="9880000" />
+      <workItem from="1701233290895" duration="99000" />
+      <workItem from="1701319194963" duration="332000" />
+      <workItem from="1701758522952" duration="833000" />
+      <workItem from="1701767223235" duration="999000" />
+      <workItem from="1701769840625" duration="746000" />
+      <workItem from="1702478210280" duration="207000" />
+      <workItem from="1706850961254" duration="548000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1700216811074</created>
@@ -290,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700923552935</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="最后一次提交">
+      <created>1701148958131</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701148958131</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

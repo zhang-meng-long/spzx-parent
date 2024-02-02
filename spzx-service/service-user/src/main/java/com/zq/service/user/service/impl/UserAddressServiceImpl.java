@@ -46,4 +46,10 @@ private UserAddressMapper userAddressMapper;
         return userAddressMapper.selectById(id);
     }
 
+    @Override
+    public void save(UserAddress userAddress) {
+//        新增用户地址（用户已经登陆的情况下）
+        userAddressMapper.insert(userAddress);
+    }
+
 }
