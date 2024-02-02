@@ -20,4 +20,6 @@ public class OrderInfoDto {
 
     //订单明细
     private List<OrderItem> orderItemList;
+
+
 }

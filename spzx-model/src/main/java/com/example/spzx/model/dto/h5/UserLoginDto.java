@@ -12,4 +12,5 @@ public class UserLoginDto {
 
     @Schema(description = "密码")
     private String password ;
+
 }

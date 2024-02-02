@@ -12,6 +12,8 @@ public class ProductDto extends BaseEntity {
     private Long brandId;
 
 
+
+
     @Schema(description = "一级分类id")
     private Long category1Id;
 
